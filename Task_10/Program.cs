@@ -7,7 +7,6 @@ if (a < 100 || a > 1000)
    {
     System.Console.WriteLine("you entered a wrong number, please enter another");
     a = int.Parse(Console.ReadLine());
-    a = Math.Abs(a);
    } 
    if (a > 99 && a < 1000)
    {
