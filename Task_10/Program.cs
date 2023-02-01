@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("enter your three digit number");
-int a = int.Parse(Console.ReadLine());
+long a = long.Parse(Console.ReadLine());
 a = Math.Abs(a);
 if (a < 100 || a > 1000)
 {
